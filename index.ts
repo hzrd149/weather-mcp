@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import { z } from "zod";
 import { fetchWeatherApi } from "openmeteo";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
